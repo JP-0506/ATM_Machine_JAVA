@@ -63,6 +63,7 @@ public class ATM {
             }
             switch (choice2) {
                 case 1:
+                    System.out.println("Enter Your Name");
                     break;
                 case 2:
                     break;
