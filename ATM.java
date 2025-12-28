@@ -33,7 +33,8 @@ public class ATM {
                         System.out.println("Wrong Password");
                     }
                     break;
-                case 2:m.UserMenu();
+                case 2:
+                    m.UserMenu();
                     break;
                 case 3:
                     System.out.println("Thank You for using ATM");
@@ -80,6 +81,7 @@ public class ATM {
     }
 
     int Dno = 1234;
+
     void UserMenu() {
         // TODO : Dno Fetch by Database And Then Match With Particular User.
         boolean running = true;
@@ -123,4 +125,3 @@ public class ATM {
         }
     }
 }
-
